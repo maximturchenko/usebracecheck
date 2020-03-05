@@ -1,0 +1,15 @@
+{
+    "name": "maximturchenko/usebracecheck",
+    "require": {
+        "maximturchenko/bracecheck": "dev-master"
+    },
+    "authors": [
+        {
+			"name": "Maxim Turchenko",
+            "email": "maksarik1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"usebracecheck\\": "src/"}
+    }
+}

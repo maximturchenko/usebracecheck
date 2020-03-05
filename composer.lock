@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9843ee897785c7a31e6df4f789e1a5c8",
+    "packages": [
+        {
+            "name": "maximturchenko/bracecheck",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximturchenko/bracecheck.git",
+                "reference": "6becafbb7d1f5f673261ef1eada2e311e712fbfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximturchenko/bracecheck/zipball/6becafbb7d1f5f673261ef1eada2e311e712fbfb",
+                "reference": "6becafbb7d1f5f673261ef1eada2e311e712fbfb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "bracecheck\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Maxim Turchenko",
+                    "email": "maksarik1@gmail.com"
+                }
+            ],
+            "description": "Check correct brace",
+            "time": "2020-03-05T08:22:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "maximturchenko/bracecheck": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
