@@ -3,12 +3,14 @@
     "require": {
         "maximturchenko/bracecheck": "dev-master"
     },
+    "license": "MIT",
     "authors": [
         {
 			"name": "Maxim Turchenko",
             "email": "maksarik1@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {"usebracecheck\\": "src/"}
     }
